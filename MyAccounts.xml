@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="false">
+    <classes>
+   
+   <class name="testcases.Sheet1_HeaderLinks"/>
+   <class name="testcases.Sheet1_FooterLinks"/>
+      <class name="testcases.Sheet2_CreateanAccount"/>
+      <class name="testcases.Sheet2_Logout"/>
+      <class name="testcases.Sheet2_LoginFlow"/>
+      <class name="testcases.Sheet2_LoginwithInvalidPassword"/>
+      <class name="testcases.Sheet2_FitFinder"/>
+      
+      
+  
+      
+      <class name="testcases.Sheet2_AddtoCart"/>
+      <class name="testcases.Sheet2_ChooseaColor"/>
+      <class name="testcases.Sheet2_Chooseasize"/>
+      <class name="testcases.Sheet2_ChooseColorandtheVariantChanges"/>
+      <class name="testcases.Sheet2_ClickingNextbutton"/>
+      <class name="testcases.Sheet2_ClickingSortBy"/>
+      <class name="testcases.Sheet2_EditingPageNumber"/>
+      <class name="testcases.Sheet2_Incorrect_AddtoCart"/>
+      <class name="testcases.Sheet2_LeftHandNavigation"/>
+      <class name="testcases.Sheet2_QuantityDropdown"/>
+      <class name="testcases.Sheet2_Reviewstab"/>
+      
+      
+      
+      
+      <class name="testcases.Sheet2_kids_PDPcases"/>
+      <class name="testcases.Sheet2_Kids_PLPcases"/>
+      <class name="testcases.Sheet2_kids_reviews"/>
+      <class name="testcases.Sheet2_kidsSearch"/>
+      
+      
+      <class name="testcases.Sheet2_Order_LoginFlow"/>
+      <class name="testcases.Sheet2_Orders_GuestFlow"/>
+      <class name="testcases.Sheet2_RRS_Kids_order_Loginflow"/>
+      <class name="testcases.Sheet2_rrs_kids_guestcheckout"/>
+      
+      
+      <class name="testcases.Sheet2_SearchaBrand"/>
+      <class name="testcases.Sheet2_SearchaModel"/>
+      <class name="testcases.Sheet2_SearchWithInvalidKeyword"/>
+      <class name="testcases.Sheet2_SearchwithKeyWords"/>
+      <class name="testcases.Sheet2_SizechartAvailable"/>
+      <class name="testcases.Sheet2_VerifyMSRPandVIPprice"/>
+      <class name="testcases.Sheet2_VisibilityofGetthisPriceLink"/>
+      <class name="testcases.Sheet2_VisibilityofItemID"/>
+      
+      
+      
+      
+      
+      
+          <class name="testcases.Flyout_cart"/>
+      <class name="testcases.FlyOutcart_click_checkout"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
